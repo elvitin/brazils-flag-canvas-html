@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  /* width: 100%; */
+  width: 100vw;
+
+  /* height: 100%; */
+  height: 100vh;
+}
+
+canvas
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid; */
+
+  /* Fixed positions */
+  /* height: 688px;
+  width: 1354px; */
+
+  height: 99%;
+  width: 99%;
+}
